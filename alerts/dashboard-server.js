@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 const PORT = 5000;
 
-const DISCORD_WEBHOOK_URL = 'https://discordapp.com/api/webhooks/1377711233582760048/NtCF_dr8lGku-W2FiTSr2YXdoLrTh8ZtWjoWsqdgeqiOpF29wFPGzXFHrYUHXkCt_cH7'; // Replace with your webhook
+const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
