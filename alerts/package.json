@@ -1,0 +1,12 @@
+{
+  "name": "security-alert-dashboard",
+  "version": "1.0.0",
+  "main": "dashboard-server.js",
+  "scripts": {
+    "start": "node dashboard-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.1"
+  }
+}
